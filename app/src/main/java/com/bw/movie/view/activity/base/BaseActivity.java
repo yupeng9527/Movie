@@ -16,7 +16,6 @@ import butterknife.Unbinder;
 public abstract class BaseActivity<P extends BasePresenter> extends AppCompatActivity implements IBaseView {
 
     public P presenter;
-    private Unbinder bind;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
